@@ -611,7 +611,7 @@ trait JQueryElement extends HTMLElement {
     * @param propertyName The name of the property to get.
     * @return the property value
     */
-  def prop(propertyName: String): String = js.native
+  def prop(propertyName: String): js.Any = js.native
 
   /**
     * Set one or more properties for the set of matched elements.
