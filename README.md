@@ -48,7 +48,7 @@ $("#greatphoto").attr(new js.Object {
 To add the `JQuery` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "jquery" % "3.1.1-2"
+libraryDependencies += "io.scalajs.npm" %%% "jquery" % "3.1.1-3"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
