@@ -3,7 +3,7 @@ package io.scalajs.jquery
 import io.scalajs.dom.Node
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * JQuery
@@ -70,7 +70,7 @@ trait JQuery extends js.Object {
 object JQuery {
 
   @js.native
-  @JSName("$")
+  @JSGlobal("$")
   object $ extends JQuery
 
 }
