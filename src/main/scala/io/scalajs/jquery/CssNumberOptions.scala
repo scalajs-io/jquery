@@ -1,7 +1,7 @@
 package io.scalajs.jquery
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * CSS Number Options
@@ -19,7 +19,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * flexGrow (added in jQuery 1.11.1)
   * flexShrink (added in jQuery 1.11.1)
   */
-@ScalaJSDefined
+
 class CssNumberOptions(var zIndex: String = null,
                        var fontWeight: String = null,
                        var opacity: String = null,
