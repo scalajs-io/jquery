@@ -8,7 +8,7 @@ jQuery is a fast, small, and feature-rich JavaScript library.
 
 ### Build Requirements
 
-* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
+* [SBT v1.2.x](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
 
@@ -48,7 +48,7 @@ $("#greatphoto").attr(new js.Object {
 To add the `JQuery` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "jquery" % "0.4.2"
+libraryDependencies += "io.scalajs.npm" %%% "jquery" % "0.5.0"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
